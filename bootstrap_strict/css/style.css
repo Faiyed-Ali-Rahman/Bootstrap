@@ -1,0 +1,263 @@
+/*====================
+	google font import
+=======================*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+
+/*=============
+	global css
+===============*/
+body{
+	font-family: font-family: 'Lato', sans-serif;
+}
+
+
+/*====================
+	header section css
+=======================*/
+header{
+	background: #f6f9f9;
+	padding: 25px 10px;
+}
+
+
+/*====================
+	banner section css
+=======================*/
+.banner{
+	width: 100%;
+	background: url("../img/banner.png") no-repeat;
+	background-size: cover; 
+	background-position: center top; 
+	text-align: center;
+	padding-top: 215px;
+	padding-bottom: 85px; 
+}
+
+
+.banner h1{
+	color:white;
+	font-size: 72px;
+}
+
+.title-border{
+	height: 5px;
+	width: 600px;
+	background: #15a4fa;
+	margin: 0 auto;
+	margin-bottom: 35px; 
+}
+
+
+.banner p{
+	color:#ffffff;
+	font-size: 14px;
+	margin-bottom: 60px; 
+}
+
+
+.banner a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	border:1px solid #15a4fa;
+	padding: 15px 30px;
+	margin-bottom:  60px;
+}
+
+
+.banner a:hover{
+	background: #15a4fa;
+}
+
+
+.banner i{
+	font-size: 25px;
+	color: white;
+	display: block;
+	margin-top: 170px;
+}
+
+
+/*====================
+	about section css
+=======================*/
+.about{
+	background: #f6f9f9;
+	padding-top:75px; 
+	text-align: center;
+}
+.about h2{
+
+}
+.about p{
+	color: #999999;
+	padding: 0 10px;
+	letter-spacing: 1px;
+	padding-top: 20px;
+	padding-bottom: 100px;
+}
+
+
+
+/*====================
+	feature section css
+=======================*/
+.feature{
+	width:100%;
+	background: #ffffff;
+	padding: 50px 10px;
+	text-align: center;
+}
+.feature img{
+	margin-bottom: 25px; 
+}
+.feature h3{
+	color: #2d3950;
+	font-size: 25px;
+}
+.feature p{
+	color:#999999;
+	font-size:14px;
+	letter-spacing: 2px;
+	margin-bottom: 30px;
+}
+/*====================
+	portfolio section css
+=======================*/
+.portfolio{
+	background: #f6f9f9;
+	width: 100%;
+	padding: 20px 0px;
+	transition: 0.3s ease-in-out;
+}
+.portfolio h2{
+	margin-top: 75px;
+	margin-bottom: 15px;
+	text-align: center;
+	color: #2d3950;
+}
+.portfolio p{
+	text-align: center;
+	margin-bottom: 75px;
+	color: #999999;
+}
+.portfolio-img{
+}
+.img{
+	margin-bottom: 50px;
+	height:260px;
+	width:360px;
+	margin-right: 50px;
+	position: relative;
+}
+.img-hover{
+	background: rgba(41,156,236,0);
+	position: absolute;
+	width:360px;
+	height: 260px; 
+	top: 0;
+	left:-999999px;
+	float: left;
+	transition: .3s ease-in-out;
+
+}
+
+.portfolio ul{
+	float: left;
+    margin-top: 105px;
+    margin-left: 105px;
+}
+.portfolio li{
+	padding: 12px 12px;
+    font-size: 20px;
+    color: white;
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+    border: 2px solid white;
+    border-radius: 2px;
+}
+
+.img:hover .img-hover{
+	background: rgba(41,156,236,0.7);
+	left:12px;
+}
+
+
+/*====================
+	contact section css
+=======================*/
+.contact{
+	width:100%;
+	background: url(../img/contact.png);
+	text-align: center;
+	color: white;
+	padding: 70px 0;
+	position: relative;
+}
+.contact h2{
+	font-size: 30px; 
+}
+.contact p{
+	font-size: 14px;
+	color: #999999;
+	margin-bottom: 40px;
+}
+.contact form{
+
+}
+.contact input{
+	background: none;
+	border:none;
+	border:1px solid #999999;
+	margin: 0 auto;
+	margin-top: 15px;
+	padding:0 10px;  
+
+}
+.name{
+
+	height:55px;
+	width:550px;
+}
+.password{
+
+	height:55px;
+	width:550px;
+}
+.massage{
+	height:175px;
+	width: 550px;
+	padding: 0 10px;
+	background: none;
+	border:1px solid #999999;
+	color:#999999;
+	margin-top: 15px;
+	width:550px;
+
+}
+.checkbox{
+ 	display: inline;
+ 	height:auto;
+ 	width: auto;
+ 	margin-right: 390px;
+ }
+ label{
+ 	margin-left: 10px;
+ }
+ .button{
+ 	position: absolute;
+ 	background: transparent;
+ 	border:1px solid #15a4fa;
+ 	padding: 10px 45px;
+ 	left: 1100px;
+ 	color: white;
+ }
+ .button:hover{
+ 	background: #15a4fa;
+ }
+
+/*====================
+	footer section css
+=======================*/ 
