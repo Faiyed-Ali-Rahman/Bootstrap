@@ -1,0 +1,316 @@
+/*=====================
+AUTHOR INFORMATION
+NAME: ;
+MAIL-ADDRESS: ;
+PHONE-NUMBER: ;
+=======================*/
+/*================
+	google fonts
+==================*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Open+Sans:wght@300;400;500;700&display=swap');
+/*================
+	global css
+==================*/
+body{
+	font-family:'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	background: #ffffff;
+}
+h1,h2{
+	font-family:  'Montserrat', sans-serif;
+}
+/*===================
+	header secion css
+=====================*/
+.manu-bar .navbar-brand{
+	font-weight: bold;
+	color: #000000;
+	font-size: 30px;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #000000;
+    padding: 5px 15px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+    padding: 5px 15px;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 25px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	border-bottom: 2px solid #000000;
+}
+/*===================
+	banner secion css
+=====================*/
+.banner{
+	position: relative;
+	margin-top: 85px;
+}
+.banner .banner-img{
+	background: url(../img/banner.png)no-repeat center top;
+	background-size: cover;
+	opacity: 0.9;
+}
+.banner h1{
+	text-align: center;
+	color: #fff;
+	font-size: 120px;
+	margin: 180px 300px 200px 300px;
+	font-weight: bold;
+	text-shadow: 0px 0 black;
+}
+.banner .banner-content-1{
+	position: absolute;
+	transform: rotate(-90deg);
+	color: #000000;
+	bottom: 73px;
+    left: 198px;
+}
+.banner .banner-content-2{
+	position: absolute;
+	bottom: 0;
+    left: 270px;
+}
+/*==========================
+	article-1-2 secion css
+============================*/
+.article-1-2{
+	margin-top: 100px;
+}
+.article-1-2 h1{
+	color: #000000;
+	font-weight: bold;
+	font-size: 72px;
+}
+.article-1-2 p{
+	color: #000000;
+	font-size: 14px;
+}
+.article-1-2 .read-more{
+	color: #000000;
+	font-weight: bold;
+	font-size: 26px;
+}
+
+.article2{
+	margin-top: 25px;
+	position: relative;
+}
+.article2 .ar-2-h1{
+	position: absolute;
+	left: 0;
+    bottom: 145px;
+}
+.article2 .right img{
+	margin-bottom: 150px;
+}
+.article2 .right h1{
+	font-size: 72px;
+	font-weight: bold;
+}
+.article2 .left h1{
+	margin-left: 200px;
+	font-size: 50px;
+	margin-bottom: 65px;
+}
+.article2 .left h1 span{
+	font-weight: bold;
+	font-size: 72px;
+	margin-left: 100px;
+}
+.article2 .left p{
+	margin-bottom: 40px;
+	z-index: 1;
+}
+.article2 .left .read-more{
+	margin-bottom: 30px;
+	font-weight: bold;
+	font-size: 26px;
+}
+.article2 .date{
+	font-size: 26px;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+.article2 h2{
+	font-size: 26px;
+	font-weight: bold;
+	margin-left: 480px;
+	margin-bottom: 0px !important;
+}
+/*=======================
+	newsletter secion css
+=========================*/
+.newsletter .newsletter-backgroud{
+	background: url(../img/newsletter.png) no-repeat center top;
+	background-size: cover;
+}
+.newsletter .newsletter-backgroud h1{
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 30px;
+	margin-top: 90px ;
+    text-shadow: 0 0 black !importan;
+}
+.newsletter .newsletter-backgroud h2{
+	text-decoration: none;
+	border: 1px solid #fff;
+	background: #fff;
+    margin-right: 560px;
+    margin-left: 580px;
+	padding: 10px 40px;
+	border-radius:25px ;
+	color: #000000;
+	font-weight: bold;
+	margin-bottom: 65px;
+	font-size: 15px;
+}
+/*========================
+	information secion css
+==========================*/
+.information{
+	margin-top: 95px;
+}
+.information ul{
+	margin-left: 340px;
+	margin-bottom: 55px;
+}
+.information ul li{
+	display: inline;
+	text-decoration: none;
+	list-style: none;
+	margin-left: 25px;
+	font-weight: bold;
+}
+.information p{
+	text-align: center;
+	margin-bottom: 100px;
+}
+/*========================
+	information secion css
+==========================*/
+.categoris{
+
+}
+
+.categoris .categoris-1{
+	background: url(../img/catergoris-1.png)no-repeat center center;
+	background-size:cover ;
+	text-align: center;
+
+}
+.categoris .categoris-1 h2{
+	margin-top: 205px;
+    margin-bottom: 200px;
+    font-weight: bold;
+    font-size: 91px;
+    color: #fff;
+    padding-left: 45px;				
+			
+
+}
+.categoris .categoris-2{
+	background: url(../img/catergoris-2.png)no-repeat center center;
+	background-size:cover ;
+}
+.categoris-2 h2{
+	marginleft: 35px;
+	margin-top: 205px;
+	margin-bottom: 200px;
+	font-weight: bold;
+	font-size: 50px;	
+	color: #fff;				
+
+}
+.categoris .categoris-3{
+	background: url(../img/catergoris-3.png)no-repeat center center;
+	background-size:cover ;
+}
+.categoris .categoris-3 h2{
+	margin-top: 205px;
+    margin-bottom: 200px;
+    font-weight: bold;
+    font-size: 91px;
+    color: #fff;
+    padding-left: 45px;				
+
+}
+/*======================
+	article-4 secion css
+========================*/
+.article-4{
+	margin-top: 110px;
+}
+.article-4 .article-4-img{
+	position: relative;
+}
+.article-4 .article-4-img .text-article-4{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.article-4 .article-4-img .text-article-4 h1{
+	position: absolute;
+	left: 950px;
+    font-weight: 500;
+    font-size: 60px;
+
+}
+.article-4 .article-4-img .text-article-4 h1 span{
+	position: absolute;
+	font-size: 60px;
+	font-weight: bold;
+}
+.article-4 .article-4-img .text-article-4 p{
+	margin-left: 580px;
+    font-size: 14px;
+    margin-top: 245px;
+}
+.article-4 .article-4-img .text-article-4 h2{
+	margin-left: 580px;
+    font-size: 26px;
+    margin-top: 90px;
+    font-weight: bold;
+}
+/*===================
+	footer secion css
+=====================*/
+footer{
+	margin-top: 150px;
+}
+footer ul{
+	margin-left: 340px;
+	margin-bottom: 50px;
+}
+footer li{
+	display: inline;
+	text-decoration: none;
+	list-style: none;
+	margin-left: 25px;
+	font-weight: bold;
+}
+footer .footer-part p{
+	display: block;
+	text-align: center;
+	margin-bottom: 100px;
+	margin-left: 300px;
+
+}
+footer .media{
+	margin-top: 60px;
+}
+footer .media ul{
+	margin-left: 530px;
+	margin-bottom: 50px;
+}
+footer .media li{
+	display: inline;
+	text-decoration: none;
+	list-style: none;
+	margin-left: 25px;
+}
